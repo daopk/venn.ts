@@ -1,0 +1,27 @@
+{
+  "name": "venn.ts",
+  "version": "0.0.3",
+  "homepage": "https://github.com/daopk/venn.ts",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "tsdown",
+    "lint": "eslint .",
+    "test": "vitest"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.mjs",
+  "packageManager": "pnpm@10.24.0",
+  "devDependencies": {
+    "@daopk/eslint-config": "^0.5.2",
+    "@types/d3": "^7.4.3",
+    "d3": "^7.9.0",
+    "eslint": "^9.39.1",
+    "fmin": "0.0.2",
+    "tsdown": "^0.17.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.15"
+  }
+}
